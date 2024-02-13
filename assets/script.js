@@ -22,7 +22,7 @@ document.getElementById("myinput").onclick = function () {
     // data to be sent to the API
     var data = {
         // domain -- change here if you want to use your own domain
-        domain: "link.laavesh.co",
+        domain: "i.vipnunes.com",
         originalURL: link,
         allowDuplicates: false,
     };
@@ -39,7 +39,7 @@ document.getElementById("myinput").onclick = function () {
             accept: "application/json",
             "Content-Type": "application/json",
             // API key -- change here if you want to use your own API key (public key)
-            authorization: "pk_ynFkEXQHXdWrijOF",
+            authorization: "pk_iXDqRu9gPDs8RFbz",
         },
         body: JSON.stringify(data),
     })
