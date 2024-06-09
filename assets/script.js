@@ -177,7 +177,7 @@ function dark() {
     document.getElementById("logo").setAttribute('src', 'assets/logo-dark.png');
 
     // change github icon
-    document.getElementById("github-logo").setAttribute('src', 'assets/github-dark.png');
+    document.getElementById("github-logo").setAttribute('src', 'assets/favicon.png');
 
     // change copy-to-clipboard icon
     document.getElementById("copy-to-clipboard").setAttribute('src', 'assets/copy-dark.png');
@@ -197,7 +197,7 @@ function light(){
     document.getElementById("logo").setAttribute('src', 'assets/logo.png');
 
     // change github icon
-    document.getElementById("github-logo").setAttribute('src', 'assets/github.png');
+    document.getElementById("github-logo").setAttribute('src', 'assets/favicon.png');
 
     // change copy-to-clipboard icon
     document.getElementById("copy-to-clipboard").setAttribute('src', 'assets/copy.png');
