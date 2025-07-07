@@ -5,9 +5,9 @@
 :root{
 	color-scheme: light dark;
 
-	--primary-color: #f1ede2;
-	--secondary-color: #615235;
-	--tertiary-color: #5e5e5e;
+	--primary-color: #222222;
+	--secondary-color: #f3e2b7;
+	--tertiary-color: #b7c9d8;
 	
 }
 
@@ -26,9 +26,9 @@
 
 /* dark mode colors */
 .dark-mode {
-	--primary-color: #222222;
-	--secondary-color: #f3e2b7;
-	--tertiary-color: #b7c9d8;
+	--primary-color: #f1ede2;
+	--secondary-color: #615235;
+	--tertiary-color: #5e5e5e;
 	transition: background-color 0.5s ease-out;
 
 	.dark-mode-toggle{
